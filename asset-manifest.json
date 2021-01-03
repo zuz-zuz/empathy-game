@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/static/js/main.e69d0c2b.chunk.js",
-    "main.js.map": "/static/js/main.e69d0c2b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.87bb714e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.87bb714e.js.map",
-    "static/js/2.33f62a9f.chunk.js": "/static/js/2.33f62a9f.chunk.js",
-    "static/js/2.33f62a9f.chunk.js.map": "/static/js/2.33f62a9f.chunk.js.map",
-    "static/js/3.b2a01f7f.chunk.js": "/static/js/3.b2a01f7f.chunk.js",
-    "static/js/3.b2a01f7f.chunk.js.map": "/static/js/3.b2a01f7f.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.33f62a9f.chunk.js.LICENSE.txt": "/static/js/2.33f62a9f.chunk.js.LICENSE.txt"
+    "main.css": "/empathy-game/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/empathy-game/static/js/main.310aa1f1.chunk.js",
+    "main.js.map": "/empathy-game/static/js/main.310aa1f1.chunk.js.map",
+    "runtime-main.js": "/empathy-game/static/js/runtime-main.686e968b.js",
+    "runtime-main.js.map": "/empathy-game/static/js/runtime-main.686e968b.js.map",
+    "static/js/2.fdfcdd88.chunk.js": "/empathy-game/static/js/2.fdfcdd88.chunk.js",
+    "static/js/2.fdfcdd88.chunk.js.map": "/empathy-game/static/js/2.fdfcdd88.chunk.js.map",
+    "static/js/3.b2a01f7f.chunk.js": "/empathy-game/static/js/3.b2a01f7f.chunk.js",
+    "static/js/3.b2a01f7f.chunk.js.map": "/empathy-game/static/js/3.b2a01f7f.chunk.js.map",
+    "index.html": "/empathy-game/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/empathy-game/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.fdfcdd88.chunk.js.LICENSE.txt": "/empathy-game/static/js/2.fdfcdd88.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.87bb714e.js",
-    "static/js/2.33f62a9f.chunk.js",
+    "static/js/runtime-main.686e968b.js",
+    "static/js/2.fdfcdd88.chunk.js",
     "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.e69d0c2b.chunk.js"
+    "static/js/main.310aa1f1.chunk.js"
   ]
 }
