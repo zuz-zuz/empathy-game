@@ -19,7 +19,7 @@ const style = {
 const styleDiv = {
   display: 'flex',
   justifyContent: 'center',
-  marginTop: '50px'
+  margin: '50px'
 }
 
 const RandomQuestion = (props) => {
@@ -42,7 +42,7 @@ const App = (props) => {
   // const usedNumbers = [];
 
   const randomNumberGenerator = () => {
-    randomNumber = Math.floor(Math.random() * 113);
+    randomNumber = Math.floor(Math.random() * (inputArr.length - 1));
     return randomNumber;
   }
 
