@@ -23,33 +23,33 @@ const styleDiv = {
 }
 
 const RandomQuestion = (props) => {
-  if(props.usedNumbers.includes(props.randomNumber)) {
-    <div>
-      TRY AGAIN!
-    </div>
-  } else {
+  // if(props.usedNumbers.includes(props.randomNumber)) {
+  //   <div>
+  //     TRY AGAIN!
+  //   </div>
+  // } else {
     return (
       <div>
         {inputArr[props.randomNumber]}
-    </div>
-    )
-  }
+      </div>
+      )
+  // }
 }
 
 
 const App = (props) => {
   let randomNumber; 
-  const usedNumbers = [];
+  // const usedNumbers = [];
 
   const randomNumberGenerator = () => {
-    randomNumber = Math.floor(Math.random() * 100);
+    randomNumber = Math.floor(Math.random() * 113);
     return randomNumber;
   }
 
   const [randomQuestion, setRandomQuestion] = useState(randomNumber);
   const handleClick = () => {
     randomNumberGenerator();
-    usedNumbers.push(randomNumber);
+    // usedNumbers.push(randomNumber);
     setRandomQuestion(randomNumber);
   }
 
@@ -61,11 +61,11 @@ const App = (props) => {
         </Button>
       </div>
       <div style={styleDiv}>
-        <RandomQuestion randomNumber={randomQuestion} usedNumbers={usedNumbers} />      
+        <RandomQuestion randomNumber={randomQuestion} />      
       </div>
-      <div style={styleDiv}>
+      {/* <div style={styleDiv}>
         You already used all these numbers: {usedNumbers}!
-      </div>
+      </div> */}
     </div>
   );
 }
